@@ -1,7 +1,7 @@
 import { CarTaxiFront } from "lucide-react";
 import { Link } from "react-router-dom";
 
-function Navbar() {
+export function Navbar() {
   return (
     <div className="border h-15 flex justify-end items-center px-10 gap-5">
       <span>
@@ -16,4 +16,3 @@ function Navbar() {
   );
 }
 
-export default Navbar;

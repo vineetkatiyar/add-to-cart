@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { ShopPage } from "./pages/shop/Shop";
+import {ShopPage} from "./pages/shop/shop"
 import { ShopContextProvider } from "./context/shop-context";
 import { Cart } from "./pages/cart/cart";
 import { Navbar } from "../src/components/navbar";
