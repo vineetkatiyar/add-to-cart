@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
 import { ShopPage } from "./pages/shop/Shop";
 import { ShopContextProvider } from "./context/shop-context";
 import { Cart } from "./pages/cart/cart";
+import { Navbar } from "../src/components/navbar";
 
 function App() {
   return (
